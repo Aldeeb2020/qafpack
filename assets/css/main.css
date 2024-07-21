@@ -1072,7 +1072,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
     color: var(--clr-common-white);
     background-position: 100% 100%;
     background-size: 300% 100%;
-    background-image: linear-gradient(to right, var(--clr-theme-2), var(--clr-theme-1), var(--clr-theme-1), var(--clr-theme-2));
+    background-image: linear-gradient(to right, var(--clr-theme-2), #c09956, #212121, #f1aa34);
 }
 
 .cp-btn-3:hover {
@@ -2497,13 +2497,14 @@ div.mean-container a.meanmenu-reveal {
 }
 
 .cp-header3-menu-icon {
-    background: rgba(17, 128, 235, 0.168627451);
+    background: rgb(143 106 43);
     width: 70px;
     height: 70px;
     display: inline-block;
     border-radius: 50%;
     padding-top: 20px;
     text-align: center;
+    color: #fff;
 }
 
 .cp-menu3-border-bottom {
@@ -4085,7 +4086,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(180deg, rgba(251, 208, 23, 0) 0%, #FF3737 100%);
+    background: linear-gradient(180deg, rgba(251, 208, 23, 0) 0%, #ff37377a 100%);
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
@@ -4553,8 +4554,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
     text-align: center;
     position: absolute;
     padding: 30px;
-    bottom: 0;
-    left: 0;
+    bottom: 20px;
+    left: 20px;
+    border-radius: 100px;
 }
 
 .cp-about3-achievement {
