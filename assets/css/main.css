@@ -12563,3 +12563,17 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 /*# sourceMappingURL=main.css.map */
+
+.cp-header3-bottom-item img{
+    height: 10rem !important;
+}
+
+/*  */
+@media (max-width: 700px){
+    .cp-header3-bottom-item img{
+        height: 3.5rem !important;
+    }
+    .cp-floating-area{
+        display: block !important;
+    }
+}
