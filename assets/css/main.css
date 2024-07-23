@@ -64,8 +64,6 @@ body {
     font-weight: 400;
     color: var(--clr-common-text);
     line-height: 26px;
-    overflow-x: hidden;
-
 }
 
 a {
