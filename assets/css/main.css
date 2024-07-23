@@ -12573,7 +12573,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 /*  */
 @media (max-width: 700px){
     .cp-header3-bottom-item img{
-        height: 4.6rem !important;
+        height: 6rem !important;
     }
     .cp-floating-area{
         display: block !important;
