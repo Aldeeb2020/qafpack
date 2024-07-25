@@ -4053,13 +4053,13 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 @media (max-width: 575px) {
     .cp-service3-active .swiper-slide-active {
-        width: 400px !important;
+        width: 100% !important;
     }
 }
 
 @media (max-width:450px) {
     .cp-service3-active .swiper-slide-active {
-        width: 300px !important;
+        width: 100% !important;
     }
 }
 
@@ -11505,6 +11505,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
     -ms-transition: all 0.3s ease-out 0s;
     -o-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s;
+    display: none !important;
 }
 
 .tp-theme-settings-area.settings-opened {
@@ -12575,5 +12576,16 @@ only screen and (min-width: 576px) and (max-width: 767px),
     }
     .cp-floating-area{
         display: block !important;
+    }
+    .swiper-slide{
+        width: 100% !important;
+        margin-left: 30px;
+        height: 300px !important;
+    }
+    .cp-service3-item{
+        height: 300px !important;
+    }
+    .cp-service3-img{
+        height: 100%;
     }
 }
